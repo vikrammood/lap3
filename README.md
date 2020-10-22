@@ -4,11 +4,11 @@ This repo contians lap3 mini project
 ## Group Members
 1. S.Kalyan Ram (B18083)
 
-2. CH Medha (B18051)
+2. CHVSN Medha (B18051)
 
-3. B.Keerthi (B18049)
+3. BK Keerthi (B18049)
 
-4. Raashika Rathi (B18081)
+4. Rashika Rathi (B18081)
 
 5. Mood Vikram (B18073)
 

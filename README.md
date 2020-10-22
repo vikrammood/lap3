@@ -13,4 +13,6 @@ This repo contians lap3 mini project
 5. Mood Vikram (B18073)
 
 ## How To Use
-1.
+1. Install Requirements:pip3-install -r requirements.txt.
+2. Run tkin.py:python3 tkin.py.
+

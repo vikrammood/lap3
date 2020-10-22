@@ -10,7 +10,7 @@ This repo contians lap3 mini project
 
 4. Raashika Rathi (B18081)
 
-5.Mood Vikram (B18073)
+5. Mood Vikram (B18073)
 
 ## How To Use
 1.

@@ -22,7 +22,7 @@ Python Libraries- tkinter, matplotlib, numpy
 ### How to run?
 1) Clone this repo using git clone --- 
 2) Go to the folder lab_3 where you have clone the repo.
-3) Open terminal and execute ./tkin.py 
+3) Open terminal and execute ./tkin-initial.py 
 
 
 ### How to use?

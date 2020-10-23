@@ -25,6 +25,15 @@ def countWords(lines):
       else: wordDict[word] = 1
   return wordDict
     
+def findMostCommon(charDict):
+  mostFreq = ''
+  mostFreqCount = 0
+  for k in charDict:
+    if charDict[k] > mostFreqCount:
+      mostFreqCount = charDict[k]
+      mostFreq = k
+  return mostFreq
+
 def count_lines():
     text_file = filedialog.askopenfilename(initialdir='/home/medch',title="open text file")
     text_file =open(text_file,'r')
@@ -35,9 +44,15 @@ def count_lines():
         if i:
             answer +=1
     
+    cw=countWords(stuff)
+    
+    fmc=findMostCommon(cw)
+    
     Entry.insert(E4,0,answer)
     print(answer)
-   
+    
+    Entry.insert(E6,0,str(fmc))
+    print(str(fmc))
    
     
    
@@ -59,6 +74,10 @@ L4.pack(pady=5)
 E4 = Entry(root, bd =5)
 E4.pack(pady=5)
 
+L4 = Label(root, text="most frequent words")
+L4.pack(pady=5)
+E6 = Entry(root, bd =5)
+E6.pack(pady=5)
 
 open_button=Button(root,text="open text file",command=open_text)
 open_button.pack(pady=5)

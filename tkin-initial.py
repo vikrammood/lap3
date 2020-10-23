@@ -45,7 +45,11 @@ def findMostCommon(charDict):
   return mostFreq
 
 def freq_word(word, wordDict):
-    return wordDict[word]
+    def freq_word(word, wordDict):
+    c=0
+    if word in wordDict:
+    	c=wordDict[word]
+    return c
 
 def count_lines():
     text_file = filedialog.askopenfilename(initialdir='/home/medch',title="open text file",filetypes=(("text files","*.txt"),("all files","*.*")))

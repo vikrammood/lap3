@@ -47,10 +47,12 @@ def count_lines():
     cw=countWords(stuff)
     
     fmc=findMostCommon(cw)
+    words = len(stuff.split())
     
     Entry.insert(E4,0,answer)
     print(answer)
-    
+    Entry.insert(E5,0,str(words))
+    print(str(words))
     Entry.insert(E6,0,str(fmc))
     print(str(fmc))
    
@@ -73,7 +75,10 @@ L4 = Label(root, text="no of lines")
 L4.pack(pady=5)
 E4 = Entry(root, bd =5)
 E4.pack(pady=5)
-
+L5 = Label(root, text="no of words")
+L5.pack(pady=5)
+E5 = Entry(root, bd =5)
+E5.pack(pady=5)
 L4 = Label(root, text="most frequent words")
 L4.pack(pady=5)
 E6 = Entry(root, bd =5)

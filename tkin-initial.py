@@ -44,6 +44,9 @@ def findMostCommon(charDict):
       mostFreq = k
   return mostFreq
 
+def freq_word(word, wordDict):
+    return wordDict[word]
+
 def count_lines():
     text_file = filedialog.askopenfilename(initialdir='/home/medch',title="open text file",filetypes=(("text files","*.txt"),("all files","*.*")))
     text_file =open(text_file,'r')
@@ -59,12 +62,17 @@ def count_lines():
     fmc=findMostCommon(cw)
     words = len(stuff.split())  #default separator is any whitespace
     
+    word=Entry.get(E8)
+    f=freq_word(str(word),cw)
+    
     Entry.insert(E4,0,answer)
     print(answer)
     Entry.insert(E5,0,str(words))
     print(str(words))
     Entry.insert(E6,0,str(fmc))
     print(str(fmc))
+     Entry.insert(E7,0,str(f/72))
+    print(str(f/72))
    
     
 def plotHist():
@@ -100,6 +108,16 @@ L4 = Label(root, text="most frequent words")
 L4.pack(pady=5)
 E6 = Entry(root, bd =5)
 E6.pack(pady=5)
+w=Label(root, text="which words freq?")
+w.pack(pady=5)
+E8 = Entry(root, bd =5)
+E8.pack(pady=5)
+L4 = Label(root, text="words freq is:")
+L4.pack(pady=5)
+E7 = Entry(root, bd =5)
+E7.pack(pady=5)
+
+
 #The Button widget is used to display buttons in your application.
 open_button=Button(root,text="open text file",command=open_text)
 open_button.pack(pady=5)

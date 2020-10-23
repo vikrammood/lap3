@@ -45,7 +45,7 @@ def findMostCommon(charDict):
   return mostFreq
 
 def freq_word(word, wordDict):
-    def freq_word(word, wordDict):
+    
     c=0
     if word in wordDict:
     	c=wordDict[word]

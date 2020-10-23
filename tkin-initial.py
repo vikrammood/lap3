@@ -71,7 +71,7 @@ def count_lines():
     print(str(words))
     Entry.insert(E6,0,str(fmc))
     print(str(fmc))
-     Entry.insert(E7,0,str(f/72))
+    Entry.insert(E7,0,str(f/72))
     print(str(f/72))
    
     

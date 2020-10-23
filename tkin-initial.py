@@ -62,7 +62,15 @@ def count_lines():
     print(str(fmc))
    
     
-   
+ def plotHist():
+    text_file = filedialog.askopenfilename(initialdir='/home/medch',title="open text file")
+    text_file =open(text_file,'r')
+    stuff=text_file.read()     
+    labels,counts = np.unique(stuff.words,return_counts=True)
+    ticks = range(len(counts))
+    plt.bar(ticks,counts,align='center')
+    plt.xticks(ticks,labels)
+    plt.show()
 
 
 
@@ -93,5 +101,6 @@ save_button.pack(pady=5)
 
 B=Button(root, text ="Submit",command = lambda:[count_lines()])
 B.pack(pady=5)
-
+plotButton = ttk.Button(root, text="Plot Histogram", command=plotHist)
+plotButton.pack()
 root.mainloop()

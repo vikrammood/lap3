@@ -61,10 +61,7 @@ def count_lines():
 
 
 
-def save_text():
-    text_file = filedialog.askopenfilename(initialdir='/home/medch',title="open text file")
-    text_file=open(text_file,'w')
-    text_file.write(my_text.get(1.0,END))
+
 
 
 

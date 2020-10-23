@@ -27,9 +27,9 @@ Python Libraries- tkinter, matplotlib, numpy
 
 ### How to use?
 
-1) Select the text file on which you want to work by clicking on open text file button in the dialogue box which is prompted after running tkin.py file.
+1) Select the text file on which you want to work by clicking on 'open text file' button in the dialogue box which is prompted after running tkin.py file.
 2) Edit the file as per your requirement.
-3) save the file by clicking on save file button in the dialog box. Remember,You need to 'save file' because you may have edited the file.
-4) 'Submit' the same file using the Submit button in the dialog box. So that no. of lines, no.of words, most frequent words can be found.
+3) save the file by clicking on 'save file' button in the dialog box. Remember,You need to 'save file' because you may have edited the file.
+4) Submit the same file using the 'Submit' button in the dialog box. So that no. of lines, no.of words, most frequent words can be evaluated.
 5) Plot histogram using the 'Plot Histogram' button.
 

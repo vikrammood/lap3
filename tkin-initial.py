@@ -62,7 +62,7 @@ def count_lines():
     print(str(fmc))
    
     
- def plotHist():
+def plotHist():
     text_file = filedialog.askopenfilename(initialdir='/home/medch',title="open text file")
     text_file =open(text_file,'r')
     stuff=text_file.read()     

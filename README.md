@@ -1,5 +1,5 @@
 # Large Application Practicum 3
-This repo contians lap3 mini project
+This repository contains lap3 mini project
 
 ## Group Members
 1. S.Kalyan Ram (B18083)
@@ -20,9 +20,9 @@ Python 3 \
 Python Libraries- tkinter, matplotlib, numpy
 
 ### How to run?
-1) Clone this repo using git clone --- 
-2) Go to the folder lab_3 where you have clone the repo.
-3) Open terminal and execute ./tkin-initial.py 
+1) Clone this repo using " $ git clone https://github.com/vikrammood/lap3  " using the command line or directly download the code using the download button on the top right corner of the repository.
+2) Go to the folder where you have cloned the repository.
+3) Open terminal and execute ./tkin-initial.py or use spyder(with required libraries installed) or anaconda to run *.py file.
 
 
 ### How to use?
@@ -33,3 +33,5 @@ Python Libraries- tkinter, matplotlib, numpy
 4) Submit the same file using the 'Submit' button in the dialog box. So that no. of lines, no.of words, most frequent words can be evaluated.
 5) Plot histogram using the 'Plot Histogram' button.
 
+For more information see [Wiki](https://github.com/vikrammood/lap3/wiki) page.
+ 
